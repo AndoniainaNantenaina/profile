@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import Home from "./components/Home";
+import 'rsuite/dist/rsuite.min.css';
+import { CustomProvider } from "rsuite";
+import MyNavBar from "./components/MyNavBar";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Skills from "./components/Skills";
+import Study from "./components/Study";
 
 function App() {
   return (
+    <BrowserRouter>
+    <CustomProvider theme="dark">
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <MyNavBar/>
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/study" element={<Study/>}/>
+        <Route path="/skills" element={<Skills/>}/>
+      </Routes>
     </div>
+    </CustomProvider>
+    </BrowserRouter>
   );
 }
 
