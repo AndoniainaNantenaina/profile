@@ -1,6 +1,7 @@
 import React from 'react'
-import { Col } from 'rsuite'
+import { Col, IconButton } from 'rsuite'
 import { TypeAnimation } from "react-type-animation";
+import { LinkedIn, Twitter, Facebook, Google } from '@mui/icons-material';
 
 export default function Home() {
 
@@ -14,11 +15,15 @@ export default function Home() {
       <Col>
       <h1>ANDONIAINA NOMENJANAHARY</h1>
       <TypeAnimation
-        sequence={['IT Developer', 1000, 'Google Community Lead', 1000, '', 1000]}
+        sequence={['IT Developer', 1000, 'Google Community Lead', 1000, 'Junior Developer', 1000]}
         style={{ fontSize: '2em' }}
         wrapper="h2"
         repeat={Infinity}
       />
+      <Col><IconButton icon={<LinkedIn/>}/></Col>
+      <Col><IconButton icon={<Twitter/>}/></Col>
+      <Col><IconButton icon={<Google/>}/></Col>
+      <Col><IconButton icon={<Facebook/>}/></Col>
       </Col>
     </div>
   )

@@ -8,15 +8,23 @@ export default function MyNavBar() {
       <Navbar.Brand>Andoniaina Nomenjanahary</Navbar.Brand>
       <Nav>
         <Nav.Item as={Link} to='/'>
-            HOME
+            ACCEUIL
         </Nav.Item>
         
         <Nav.Item as={Link} to='/study'>
-            STUDY
+          ETUDES  
         </Nav.Item>
-        
+          
         <Nav.Item as={Link} to='/skills'>
-            SKILLS
+            COMPETENCES
+        </Nav.Item>
+
+        <Nav.Item as={Link} to='/skills'>
+            FORMATIONS
+        </Nav.Item>
+
+        <Nav.Item as={Link} to='/skills'>
+            EXPERIENCES
         </Nav.Item>
       </Nav>
       <Nav pullRight>
