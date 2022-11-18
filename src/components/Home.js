@@ -13,6 +13,9 @@ export default function Home() {
       height : "80vh",
     }}>
       <Col>
+      <img src={require('../images/Ando-removebg-preview.png')}/>
+      </Col>
+      <Col>
       <h1>ANDONIAINA NOMENJANAHARY</h1>
       <TypeAnimation
         sequence={['IT Developer', 1000, 'Google Community Lead', 1000, 'Junior Developer', 1000]}
