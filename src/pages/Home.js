@@ -13,7 +13,7 @@ export default function Home() {
       height : "80vh",
     }}>
       <Col>
-      <img src={require('../images/Ando-removebg-preview.png')}/>
+      <img src={require('../images/Ando-removebg-preview.png')} alt='profil-AN'/>
       </Col>
       <Col>
       <h1>ANDONIAINA NOMENJANAHARY</h1>
@@ -23,10 +23,10 @@ export default function Home() {
         wrapper="h2"
         repeat={Infinity}
       />
-      <Col><IconButton icon={<LinkedIn/>}/></Col>
-      <Col><IconButton icon={<Twitter/>}/></Col>
-      <Col><IconButton icon={<Google/>}/></Col>
-      <Col><IconButton icon={<Facebook/>}/></Col>
+      <Col><IconButton appearance='primary' color='blue' href='http://www.linkedin.com/in/nomenjanahary-andoniaina-45b44b179' icon={<LinkedIn></LinkedIn>}/></Col>
+      <Col><IconButton appearance='primary' color='cyan' href='#' icon={<Twitter/>}></IconButton></Col>
+      <Col><IconButton appearance='primary' color='red' href='https://g.dev/andoniaina_nomenjanahary' icon={<Google/>}/></Col>
+      <Col><IconButton appearance='primary' color='blue' href='#' icon={<Facebook/>}/></Col>
       </Col>
     </div>
   )

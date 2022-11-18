@@ -1,4 +1,3 @@
-import { Check, CheckCircle } from '@mui/icons-material';
 import React from 'react'
 import { Col, Divider, Panel, Timeline } from 'rsuite'
 
@@ -14,7 +13,7 @@ export default function Study() {
       <h2>ETUDES</h2>
       <Divider/>
       <Timeline align='alternate' endless={true}>
-        <Timeline.Item>
+        <Timeline.Item title='TEST TITLE'>
           <Panel header="ESTI Antanimena" bordered>
             <h4>MASTER</h4>
             <p>Aujourd'hui</p>
