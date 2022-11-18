@@ -11,19 +11,19 @@ export default function MyNavBar() {
             ACCEUIL
         </Nav.Item>
         
-        <Nav.Item as={Link} to='/study'>
+        <Nav.Item as={Link} to='/etudes'>
           ETUDES  
         </Nav.Item>
           
-        <Nav.Item as={Link} to='/skills'>
+        <Nav.Item as={Link} to='/competences'>
             COMPETENCES
         </Nav.Item>
 
-        <Nav.Item as={Link} to='/skills'>
+        <Nav.Item as={Link} to='/formations'>
             FORMATIONS
         </Nav.Item>
 
-        <Nav.Item as={Link} to='/skills'>
+        <Nav.Item as={Link} to='/experiences'>
             EXPERIENCES
         </Nav.Item>
       </Nav>
