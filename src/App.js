@@ -7,6 +7,7 @@ import Skills from "./pages/Skills";
 import Study from "./pages/Study";
 import Formations from "./pages/Formations";
 import Experiences from "./pages/Experiences";
+import NewHome from "./pages/NewHome";
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
         </Header>
         <Content>
           <Routes>
-            <Route path="/" element={<Home/>}/>
+            <Route path="/" element={<NewHome/>}/>
             <Route path="/etudes" element={<Study/>}/>
             <Route path="/competences" element={<Skills/>}/>
             <Route path="/formations" element={<Formations/>}/>

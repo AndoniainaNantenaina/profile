@@ -13,7 +13,7 @@ export default function Home() {
       height : "80vh",
     }}>
       <Col>
-      <img src={require('../images/Ando-removebg-preview.png')} alt='profil-AN'/>
+        <img src={require('../images/Ando-removebg-preview.png')} alt='profil-AN'/>
       </Col>
       <Col>
       <h1>ANDONIAINA NOMENJANAHARY</h1>

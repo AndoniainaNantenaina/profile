@@ -12,7 +12,7 @@ export default function Study() {
       <Col>
       <h2>ETUDES</h2>
       <Divider/>
-      <Timeline align='alternate' endless={true}>
+      <Timeline align='alternate' endless={false}>
         <Timeline.Item title='TEST TITLE'>
           <Panel header="ESTI Antanimena" bordered>
             <h4>MASTER</h4>
